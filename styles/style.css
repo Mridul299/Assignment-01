@@ -113,7 +113,6 @@ nav{
 }
 /* 2nd topic after banner */
 .cod-info{
-    border: 1px solid red;
     width: 1140px;
     height: 1393px;
     padding: 80px 97px;
@@ -209,8 +208,7 @@ nav{
 .insp-container{
     width: 1140px;
     height: 775px;
-    margin: 150px auto;
-    margin-bottom: 200px;
+    margin: 150px auto 70px;
 
 }
 
@@ -244,4 +242,44 @@ nav{
     width: 1076px;
     height: 550px;
 
+}
+/* 4th object */
+/* footer */
+.ftr-container{
+    margin-top: 80px;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.ftr-title{
+    width: 500px;
+    margin:50px auto 48px 100px ;
+
+}
+.ftr-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.ftr-imgs{
+    display: flex;
+    width: 158px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 100px 36px auto;
+
+}
+.facebook{
+    width: 36px;
+    height: 36px;
+}
+.github{
+    width: 36px;
+    height: 36px;
+
+}
+.linkedin{
+    width: 36px;
+    height: 36px;
 }
