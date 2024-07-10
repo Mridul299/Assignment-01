@@ -111,6 +111,10 @@ nav{
     border: none;
 
 }
+#banner-btn a{
+    text-decoration: none;
+    color: #ffff;
+}
 /* 2nd topic after banner */
 .cod-info{
     width: 1140px;
@@ -245,8 +249,80 @@ nav{
 }
 /* 4th object */
 /* footer */
+.support-container{
+    margin: 49px auto 80px;
+    width: 1140px;
+    height: 313px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: url("../assets/handshake.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sup-cont{
+    padding: 64px 48px;
+}
+.sup-dis{
+    width: 730px;
+    height: 104px;
+    text-align: center;
+    /* border: 1px solid rgb(252, 169, 61); */
+}
+.sup-title{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.sup-sub-title{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    margin-top: 16px;
+}
+.sup-bars{
+    margin:0 auto;
+    width: 684px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#text-ar{
+    width: 548px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 180px 18px 20px;
+    
+}
+.sup-submit{
+    width: 120px;
+}
+#submit-btn{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 10px;
+}
+
+
+#ftr-btn a{
+    text-decoration: none;
+    color: black;
+}
+#ftr-btn{
+    border: none;
+    background: transparent;
+}
+.footer-box{
+    background-color: antiquewhite;
+    text-align: center;
+}
 .ftr-container{
-    margin-top: 80px;
     display: flex;
     height: 100px;
     justify-content: space-between;
