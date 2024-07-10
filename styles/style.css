@@ -141,10 +141,10 @@ nav{
     margin-top: 35px;
 }
 .info-box-1 ,.info-box-2 ,.info-box-3{
-
     margin-top: 32px;
     border-radius: 16px;
-    background-color:rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     display: flex;
     justify-content: space-between;
 }
@@ -203,5 +203,45 @@ nav{
     background-image: url("../assets/Group\ 4.png");
     background-size: contain;
     background-repeat: no-repeat;
+
+}
+/* 3rd topic */
+.insp-container{
+    width: 1140px;
+    height: 775px;
+    margin: 150px auto;
+    margin-bottom: 200px;
+
+}
+
+.ins-heading{
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+.insp-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+.insp-sub-title{
+    font-size: 16px;
+    margin-top: 24px;
+}
+.insp-body{
+    height: 614px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 48px;
+}
+.insp-vdo{
+    border-radius: 16px;
+    height: 550px;
+}
+
+#insp-vdo{
+    border-radius: 16px;
+    width: 1076px;
+    height: 550px;
 
 }
